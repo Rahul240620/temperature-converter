@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Numans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <img id="logo" src="logo.png" alt="logo" />
+        <h3>Temperature Converter</h3>
+      </nav>
+      <div class="container">
+        <div class="select-div__upper">
+          <div class="label flex">
+            <p>🌡️ Enter Temperature</p>
+            <select class="upper-select">
+              <option value="c">Celcius</option>
+              <option value="f">Farenheit</option>
+              <option value="k">Kelvin</option>
+            </select>
+          </div>
+          <input type="number" class="upper-input" />
+        </div>
+
+        <div class="select-div__bottom">
+          <div class="label flex">
+            <p>➡️ Convert to</p>
+            <select class="lower-select">
+              <option value="f">Farenheit</option>
+              <option value="c">Celcius</option>
+              <option value="k">Kelvin</option>
+            </select>
+          </div>
+          <input class="lower-input" />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
